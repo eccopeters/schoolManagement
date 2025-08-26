@@ -1,0 +1,47 @@
+{
+  "name": "schoolmanagement",
+  "version": "1.0.0",
+  "description": "The system built using express js and MySql to manage school data",
+  "keywords": [
+    "school",
+    "intershala",
+    "mySQL",
+    "data",
+    "EduCase",
+    "Education",
+    "management"
+  ],
+  "homepage": "https://github.com/eccopeters/schoolManagement#readme",
+  "bugs": {
+    "url": "https://github.com/eccopeters/schoolManagement/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eccopeters/schoolManagement.git"
+  },
+  "license": "ISC",
+  "author": "https://github.com/eccopeters",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@vinejs/vine": "^3.0.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "mysql": "^2.18.1",
+    "xss": "^1.0.15",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.1",
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
